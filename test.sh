@@ -12,5 +12,4 @@ do
         return_code=1
     fi
 done
-echo $return_code
 exit $return_code;

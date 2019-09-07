@@ -2,9 +2,6 @@
 
 cd dev
 
-# stop on first error
-set -e;
-
 function onExit {
     if [ "$?" != "0" ]; then
         echo "Test failure";
